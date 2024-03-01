@@ -1,19 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import Table from './components/table';
-// import TableData from './components/table';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <TableData/>
-//       <button>Next</button>
-//     </div>
-//   );
-// }
-
-
-
 import React from 'react';
 import DataTable from './DataTable';
 
@@ -68,12 +52,6 @@ const data = [
   { sno: 48, customer_name: 'Grace Lee', age: 55, phone: '222-333-4444', location: 'Boston', created_at: '2024-03-03T08:00:00Z' },
   { sno: 49, customer_name: 'Charlie Green', age: 60, phone: '777-888-9999', location: 'Seattle', created_at: '2024-03-03T09:00:00Z' },
   { sno: 50, customer_name: 'Eve White', age: 65, phone: '444-444-4444', location: 'Miami', created_at: '2024-03-03T10:00:00Z' },
-
-
-
-
-  
-  // Add more data as needed
 ];
 
 const App = () => {
